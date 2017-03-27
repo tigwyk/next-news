@@ -1,8 +1,5 @@
 {
   "name": "next-news",
-  "engines": {
-    "ace": "beta"
-  },
   "license": "MIT",
   "dependencies": {
     "firebase": "^3.7.3",
