@@ -1,4 +1,4 @@
-import Link from 'next/prefetch'
+import Link from 'next/link'
 
 export default () => (
   <ul>
@@ -18,7 +18,7 @@ export default () => (
 
 const Item = ({ href, children }) => (
   <li>
-    <Link href={href}>
+    <Link prefetch href={href}>
       <a>{ children }</a>
     </Link>
 

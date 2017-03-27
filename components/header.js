@@ -1,11 +1,11 @@
 import Nav from './nav'
 import Logo from './logo'
-import Link from 'next/prefetch'
+import Link from 'next/link'
 
 export default () => (
   <header>
     <div className="left">
-     <Link href="/">
+     <Link prefetch href="/">
        <a>
          <span className="logo">
            <Logo />
@@ -18,7 +18,7 @@ export default () => (
       </div>
     </div>
     <div className="right">
-      <Link href="/login"><a className="login">login</a></Link>
+      <Link prefetch href="/login"><a className="login">login</a></Link>
     </div>
 
     <style jsx>{`
