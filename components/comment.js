@@ -73,6 +73,7 @@ export default class Comment extends React.Component {
         
         .text :global(pre) {
           margin-bottom: 10px;
+          white-space: pre-wrap;
         }
 
         .text :global(a) {
