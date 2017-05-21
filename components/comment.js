@@ -14,7 +14,7 @@ export default class Comment extends React.Component {
       <div className="meta">
         { user }
         {' '}
-        { timeAgo(new Date(date)) } ago 
+        { timeAgo(new Date(date)) } ago
         {' '}
         <span onClick={this.toggle} className="toggle">
           {
@@ -70,9 +70,12 @@ export default class Comment extends React.Component {
         .text :global(p) {
           margin-top: 10px;
         }
-        
+
         .text :global(pre) {
           margin-bottom: 10px;
+          max-width: 900px;
+          overflow: auto;
+          padding: 2px;
           white-space: pre-wrap;
         }
 
