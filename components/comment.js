@@ -4,7 +4,7 @@ export default class Comment extends React.Component {
 
   constructor (props) {
     super(props)
-    this.state = {}
+    this.state = {toggled: false}
     this.toggle = this.toggle.bind(this)
   }
 
