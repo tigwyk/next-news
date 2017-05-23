@@ -6,8 +6,8 @@
     "ms": "^1.0.0",
     "next": "beta",
     "nprogress": "^0.2.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
     "url-parse": "^1.1.8"
   },
   "scripts": {
